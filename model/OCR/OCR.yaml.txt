@@ -1,0 +1,15 @@
+# OCR.yaml
+train: C:/Users/ADMIN/XLA/model/OCR/images/train
+val:   C:/Users/ADMIN/XLA/model/OCR/images/val
+
+# Số lượng class = số lượng ký tự cần nhận dạng
+# Ví dụ: chữ + số (0-9, A-Z) = 36 class
+nc: 36
+
+names:
+  [
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+    'U', 'V', 'W', 'X', 'Y', 'Z'
+  ]

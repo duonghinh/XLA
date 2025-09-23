@@ -1,0 +1,6 @@
+# LP.yaml
+train: C:/Users/ADMIN/XLA/model/LP_detection/images/train
+val:   C:/Users/ADMIN/XLA/model/LP_detection/images/val
+
+nc: 2
+names: ['motorbike_plate', 'car_plate']
